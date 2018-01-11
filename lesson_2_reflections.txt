@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+-> Command 'git init' is used to initialize a repository. A .git file is added when a new repo is initialized. There are no commits at this point.
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+-> Staging area is the intermediate area where files are added before changes are committed. It comes handy when you have to make several changes at once or edit several files at one go or add multiple files at one go, it allows us to complete the whole process before finally committing. So all the desired changes can be introduced with a single commit command.
