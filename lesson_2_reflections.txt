@@ -6,3 +6,6 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 -> Staging area is the intermediate area where files are added before changes are committed. It comes handy when you have to make several changes at once or edit several files at one go or add multiple files at one go, it allows us to complete the whole process before finally committing. So all the desired changes can be introduced with a single commit command.
+
+'git diff' without arguments compares the files present in working directory and staging area
+'git diff --staged' compares the files in staging area to the last committed files 
