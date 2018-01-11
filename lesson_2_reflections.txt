@@ -1,6 +1,6 @@
 What happens when you initialize a repository? Why do you need to do it?
 
--> Command 'git init' is used to initialize a repository. A .git file is added when a new repo is initialized. There are no commits at this point.
+-> Command 'git init' is used to initialize a repository. A .git file is added when a new repo is initialized. There are no commits at this poin
 
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
