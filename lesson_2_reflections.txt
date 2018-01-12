@@ -8,4 +8,19 @@ How is the staging area different from the working directory and the repository?
 -> Staging area is the intermediate area where files are added before changes are committed. It comes handy when you have to make several changes at once or edit several files at one go or add multiple files at one go, it allows us to complete the whole process before finally committing. So all the desired changes can be introduced with a single commit command.
 
 'git diff' without arguments compares the files present in working directory and staging area
-'git diff --staged' compares the files in staging area to the last committed files 
+'git diff --staged' compares the files in staging area to the last committed files
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+-> We can use staging area to accumulate all the files that have been modified/added and commit them all at once.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+-> Branches can be used when trying to experiment with the project especially when you're not sure how it is gonna affect your project. Branches allow you to maintain a different copy(kinda!) of your project so that you can try out experimental changes and the original file remains as it is in the meantime. New changes if work can be merged into the original project.
+
+
+How do the diagrams help you visualize the branch structure?
+
+-> Helps in seeing it like a normal tree where there is a single root(or origin) but then it branches out to different stems.
