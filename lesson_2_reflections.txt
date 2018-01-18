@@ -1,6 +1,6 @@
 What happens when you initialize a repository? Why do you need to do it?
 
--> Command 'git init' is used to initialize a repository. A .git file is added when a new repo is initialized. There are no commits at this poin
+-> Command 'git init' is used to initialize a repository. A .git file is added when a new repo is initialized. There are no commits at this point.
 
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
@@ -24,3 +24,18 @@ What are some situations when branches would be helpful in keeping your history 
 How do the diagrams help you visualize the branch structure?
 
 -> Helps in seeing it like a normal tree where there is a single root(or origin) but then it branches out to different stems.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+-> We merge the branches together to incorporate the changes of 2 branches into one when the task is finished so that the project can move further as one.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+-> pros of auto: - less overhead for the user
+			cons: - may sometimes not be exactly what the user intended to do in the first place
+
+-> pros of manual: - user can do exactly the way he wants
+					- conflicts can be resolved
+			cons: - additional overhead of doing simple ones which do not have any conflict.
